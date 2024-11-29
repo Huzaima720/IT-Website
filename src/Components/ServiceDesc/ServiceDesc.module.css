@@ -1,56 +1,190 @@
-.serviceDesc{
-    align-items: flex-start;
-    margin: 30px;
+.serviceDesc {
+  align-items: flex-start;
+  margin: 30px;
 }
 
-.serviceDesc .description{
-    font-size: 25px;
-    line-height: 1.4;
-    padding: 70px 90px;
+.serviceDesc .description {
+  font-size: 25px;
+  line-height: 1.4;
+  padding: 70px 90px;
 }
 
-
-.servicesContainer{
-    margin: 30px 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 80px;
+.servicesContainer {
+  margin: 30px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
 }
 
-.serviceList{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
+.serviceList {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
 }
 
-.serviceItem{
-    width: 100%;
-    text-align: center;
-    font-family: var(--font-dubai-light);
-    font-size: 28px;
-    padding-bottom: 15px;
-    border-bottom: 2px solid #ccc;
+.serviceItem {
+  width: 100%;
+  text-align: center;
+  font-family: var(--font-dubai-light);
+  font-size: 28px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #ccc;
 }
-.imageSection{
-    flex: 1;
-    width: 100%;
+.imageSection {
+  flex: 1;
+  width: 100%;
 }
 
+.advantages {
+  padding: 70px 90px;
 
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
+  gap: 20px;
+  font-size: 22px;
+}
 
-.advantages{
-    padding: 70px 90px;
+@media (max-width: 1200px) {
+  .serviceDesc {
+    margin: 20px 0;
+  }
 
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-   
+  .servicesContainer {
     gap: 20px;
+    margin: 20px 0;
+  }
+
+  .serviceDesc .description {
+    padding: 50px 70px;
+  }
+
+  .serviceList {
+    margin: 20px 0;
+    gap: 15px;
+  }
+  .serviceItem {
+    font-size: 24px;
+    padding-bottom: 12px;
+  }
+
+  .advantages {
+    padding: 55px 70px;
+    gap: 16px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .serviceDesc {
+    margin: 15px 0;
+  }
+
+  .servicesContainer {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 40px;
+    margin: 20px 0;
+  }
+
+  .serviceDesc .description {
     font-size: 22px;
+    padding: 40px 60px;
+  }
+
+  .serviceList {
+    margin: 20px 0;
+  }
+
+  .advantages {
+    padding: 40px 55px;
+    gap: 14px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 800px) {
+  .serviceDesc {
+    margin: 10px 0;
+  }
+
+  .servicesContainer {
+    gap: 30px;
+    margin: 15px 0;
+  }
+
+  .serviceList {
+    align-items: flex-start;
+    gap: 20px;
+    margin: 15px 0;
+  }
+
+  .serviceItem {
+    font-size: 24px;
+  }
+
+  .advantages {
+    padding: 30px 40px;
+    gap: 12px;
+    font-size: 16px;
+    line-height: 1.3;
+  }
+}
+
+@media (max-width: 600px) {
+  .serviceDesc {
+    margin: 10px 0;
+  }
+
+  .serviceDesc .description {
+    font-size: 18px;
+    line-height: 1.2;
+    padding: 30px 40px;
+  }
+
+  .servicesContainer {
+    gap: 12px;
+    margin: 10px 0;
+  }
+
+  .serviceList {
+    gap: 10px;
+    margin: 10px 0;
+  }
+  .serviceItem {
+    font-size: 18px;
+    padding-bottom: 8px;
+  }
+
+  .advantages {
+    padding: 20px 30px;
+    gap: 10px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 375px) {
+  .serviceDesc {
+    margin: 5px 0;
+  }
+
+  .serviceItem {
+    font-size: 16px;
+  }
+
+  .advantages {
+    padding: 10px 20px;
+    gap: 8px;
+    font-size: 10px;
+  }
+  .serviceDesc .description {
+    font-size: 16px;
+    padding: 20px 30px;
+  }
 }
