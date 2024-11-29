@@ -1,0 +1,184 @@
+.testimonials {
+  align-items: center;
+  gap: 60px;
+  margin: 40px 10px;
+}
+.testimonialsContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  gap: 40px;
+}
+.Arrow {
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.card {
+  flex: 1;
+  padding: 30px;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+
+  box-shadow: 0 5px 15px #6954f438;
+}
+.profle{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.card h3{
+    font-size: 30px;
+    color: var(--primary-color);
+}
+
+.review{
+    font-size: 20px;
+    padding: 20px;
+}
+
+@media (max-width: 1200px) {
+  .testimonialsContainer {
+    gap: 30px;
+  }
+
+  .card h3 {
+    font-size: 26px;
+  }
+
+  .review {
+    font-size: 18px;
+  }
+  .image {
+    width: 80px;
+    height: 80px;
+ 
+  }
+}
+
+@media (max-width: 1024px) {
+  .testimonialsContainer {
+    gap: 20px;
+  }
+  .card{
+    gap: 16px;
+    padding: 22px;
+  }
+  .card h3 {
+    font-size: 23px;
+  }
+
+  .review {
+    font-size: 18px;
+    padding: 16px;
+  }
+  .image {
+    width: 60px;
+    height: 60px;
+  }
+  .Arrow {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 800px) {
+  .testimonialsContainer {
+    gap: 18px;
+  }
+  .card{
+    gap: 12px;
+    padding: 18px;
+  }
+  .profle{
+    gap: 12px;
+  }
+
+  .card h3 {
+    font-size: 19px;
+  }
+
+  .review {
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 13px;
+
+  }
+  .image {
+    width: 50px;
+    height: 50px;
+  }
+  .Arrow {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 600px) {
+  .testimonialsContainer {
+    gap: 15px;
+  }
+  .card{
+    gap: 8px;
+    padding: 14px;
+  }
+
+  .card h3 {
+    font-size: 16px;
+  }
+
+  .profle{
+    gap: 10px;
+  }
+
+  .review {
+    font-size: 16px;
+    line-height: 1.2;
+    padding: 10px;
+  }
+  .image {
+    width: 40px;
+    height: 40px;
+  }
+  .Arrow {
+    font-size: 20px;
+  }
+}
+
+
+@media (max-width: 375px) {
+  .testimonialsContainer {
+    gap: 12px;
+  }
+  .card{
+    gap: 8px;
+  }
+  .card h3 {
+    font-size: 12px;
+  }
+
+  .review {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .Arrow {
+    font-size: 30px;
+  }
+  .image {
+    width: 30px;
+    height: 30px;
+  }
+  .Arrow {
+    font-size: 18px;
+  }
+}

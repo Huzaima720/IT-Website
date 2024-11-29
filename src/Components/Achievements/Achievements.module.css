@@ -1,0 +1,129 @@
+.Achievements {
+  color: white;
+
+  background-color: black;
+  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+}
+.images {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.contents {
+  width: 54%;
+}
+.contents h2 {
+  font-size: 30px;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+
+
+.contents a {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+@media (max-width: 1200px) {
+  .Achievements {
+    padding-top: 150px;
+    gap: 85px;
+  }
+  .images {
+    gap: 17px;
+  }
+  .contents {
+    width: 60%;
+    
+  }
+  .contents h2 {
+    font-size: 26px;
+    line-height: 1.2;
+    margin-bottom: 17px;
+  }
+  .contents a {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1024px) {
+  .Achievements {
+    padding-top: 120px;
+    gap: 70px;
+  }
+  .images {
+    gap: 15px;
+  }
+  .contents {
+    width: 60%;
+    
+  }
+  .contents h2 {
+    font-size: 22px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+  }
+  .contents a {
+    font-size: 16px;
+  }
+}
+@media (max-width: 800px) {
+  .Achievements {
+    padding-top: 90px;
+    gap: 50px;
+  }
+  
+  .contents {
+    width: 60%;
+    
+  }
+  .contents h2 {
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 13px;
+  }
+  .contents a {
+    font-size: 14px;
+  }
+}
+@media (max-width: 600px) {
+  .Achievements {
+    padding-top: 65px;
+    gap: 30px;
+  }
+  .images {
+    gap: 10px;
+  }
+  
+  .contents {
+    width: 100%;
+    
+  }
+  .contents h2 {
+    font-size: 14px;
+    line-height: 1.1;
+    margin-bottom: 10px;
+  }
+  .contents a {
+    font-size: 12px;
+  }
+}
+@media (max-width: 375px) {
+  .Achievements {
+    padding-top: 40px;
+    gap: 15px;
+  }
+  
+  
+  .contents h2 {
+    font-size: 12px;
+    line-height: 1.1;
+    margin-bottom: 8px;
+  }
+  .contents a {
+    font-size: 10px;
+  }
+}

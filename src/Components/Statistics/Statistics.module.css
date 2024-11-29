@@ -1,0 +1,95 @@
+.states {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+  .state{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .state .icon{
+      font-size: 90px;
+      
+  }
+  .state h3{
+      font-size: 32px;
+      
+  }
+  
+  @media (max-width: 1200px) {
+    .states {
+        gap: 17px;
+      }
+      
+      .state .icon{
+          font-size: 70px;
+          
+      }
+      .state h3{
+          font-size: 27px;
+          
+      }
+      
+  }
+  @media (max-width: 1024px) {
+    .states {
+        gap: 15px;
+      }
+      
+      .state .icon{
+          font-size: 50px;
+          
+      }
+      .state h3{
+          font-size: 24px;
+          
+      }
+    
+  }
+  @media (max-width: 800px) {
+    .states {
+        gap: 13px;
+      }
+      
+      .state .icon{
+          font-size: 35px;
+          
+      }
+      .state h3{
+          font-size: 20px;
+          
+      }
+    
+  }
+  @media (max-width: 600px) {
+    .states {
+        gap: 8px;
+      }
+      
+      .state .icon{
+          font-size: 20px;
+          
+      }
+      .state h3{
+          font-size: 11px;
+          
+      }
+    
+  }
+  @media (max-width: 375px) {
+    .states {
+        gap: 5px;
+      }
+      
+      .state .icon{
+          font-size: 14px;
+          
+      }
+      .state h3{
+          font-size: 9px;
+          
+      }
+    
+  }

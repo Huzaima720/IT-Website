@@ -1,0 +1,11 @@
+:root {
+  /* Font Family Variables */
+  --font-dubai-regular: 'Dubai Regular', sans-serif;
+  --font-dubai-light: 'Dubai Light', sans-serif;
+  --font-dubai-medium: 'Dubai Medium', sans-serif;
+  --font-dubai-bold: 'Dubai Bold', sans-serif;
+
+  /* Color Variables */
+  --primary-color: #6A54F4;
+
+}

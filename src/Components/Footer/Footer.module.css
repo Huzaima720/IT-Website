@@ -1,0 +1,198 @@
+.footer {
+  background-color: #000;
+  color: #fff;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.footerSection {
+  flex: 1;
+}
+.logoSection {
+  flex: 2;
+}
+.logo {
+  font-size: 50px;
+}
+.logoSection p {
+  color: #a3a3a3;
+}
+
+.sectionTitle {
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+.linkList {
+  list-style: none;
+  padding: 0;
+}
+
+.linkList li {
+  color: #a3a3a3;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.socialIcons {
+  display: grid;
+  grid-template-columns: repeat(3, 30px);
+  gap: 15px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 1200px) {
+  .footerContainer {
+    gap: 32px;
+  }
+
+  .logo {
+    font-size: 40px;
+  }
+
+  .sectionTitle {
+    font-size: 18px;
+  }
+  
+}
+
+@media (max-width: 1024px) {
+  .footerContainer {
+    gap: 25px;
+  }
+
+  .logoSection{
+    flex: 1.75;
+  }
+
+  .logo {
+    font-size: 35px;
+  }
+
+  .sectionTitle {
+    font-size: 16px;
+  }
+
+  .linkList li {
+    font-size: 14px;
+  }
+
+  .socialIcons {
+    grid-template-columns: repeat(3, 25px);
+    gap: 10px;
+  }
+
+  .icon {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media (max-width: 800px) {
+  .footerContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    gap: 25px;
+  }
+  .logoSection {
+    grid-column: span 3;
+    text-align: center;
+  }
+
+  .footerSection {
+    flex: 1 1 100%;
+  }
+
+  .logo {
+    font-size: 30px;
+  }
+
+  .sectionTitle {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  .linkList li {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footerContainer {
+    gap: 15px;
+  }
+
+  .logo {
+    font-size: 25px;
+  }
+  .logoSection p{
+    font-size: 13px;
+  }
+
+  .sectionTitle {
+    font-size: 13px;
+    margin-bottom: 14px;
+  }
+
+  .linkList li {
+    font-size: 11px;
+    margin-bottom: 5px;
+
+  }
+
+  .socialIcons {
+    grid-template-columns: repeat(3, 20px);
+    gap: 8px;
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 375px) {
+  .footerContainer {
+    gap: 10px;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+  .logoSection p{
+    font-size: 11px;
+  }
+
+  .sectionTitle {
+    font-size: 11px;
+    margin-bottom: 10px;
+  }
+
+  .linkList li {
+    font-size: 10px;
+  }
+
+  .socialIcons {
+    grid-template-columns: repeat(3, 18px);
+    gap: 5px;
+  }
+
+  .icon {
+    width: 18px;
+    height: 18px;
+  }
+}

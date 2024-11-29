@@ -1,0 +1,145 @@
+button {
+  /* font-family: var(--font-dubai-light); */
+  color: white;
+  padding: 14px 36px;
+  font-size: 18px;
+}
+.purple-btn {
+  background-color: var(--primary-color);
+}
+.border-btn {
+  border: 1px solid #fff;
+}
+
+.black-btn {
+  background-color: black;
+  color: white;
+}
+
+@media(max-width:1200px){
+  button{
+    font-size: 16px;
+    
+  }
+}
+@media(max-width: 1024px){
+  button{
+    padding: 12px 30px;
+  }
+}
+@media(max-width: 600px){
+  button{
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+}
+
+@media(max-width: 475px){
+  button{
+    padding: 8px 16px;
+    font-size: 10px;
+  }
+}
+
+/* Stylized Heading */
+
+.stylizedHeading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.stylizedHeading h2 {
+  font-family: var(--font-dubai-light);
+  font-size: 55px;
+}
+
+.text-decoration {
+  width: 92%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.text-decoration .heading-line {
+  flex: 1;
+  height: 3px;
+  background-color: var(--primary-color);
+}
+.text-decoration .dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.text-decoration .dot {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  /* font-size: 14px; */
+  background-color: var(--primary-color);
+}
+
+@media (max-width: 1200px) {
+  .stylizedHeading h2{
+    font-size: 40px;
+    line-height: 1.7;
+
+  }
+  
+@media (max-width: 1024px) {
+  .stylizedHeading h2{
+    font-size: 34px;
+  }
+  .text-decoration .dot{
+    height: 8px;
+    width: 8px;
+  }
+
+}
+@media (max-width: 800px) {
+  .stylizedHeading h2{
+    font-size: 28px;
+    line-height: 1.6;
+  }
+  .text-decoration {
+    gap: 7px;
+  }
+  .text-decoration.heading-line {
+    height: 1.5px;
+  }
+  .text-decoration .dots {
+    gap: 7px;
+  }
+  .text-decoration .dot {
+    width: 6px;
+    height: 6px;
+  }
+}
+  
+}
+@media (max-width: 600px) {
+  .stylizedHeading h2{
+    font-size: 24px;
+  }
+  
+}
+@media (max-width: 375px) {
+  .stylizedHeading h2{
+    font-size: 18px;
+  }
+  .text-decoration {
+    gap: 5px;
+  }
+
+  .text-decoration .heading-line {
+    height: 1.3px;
+  }
+  .text-decoration .dots {
+    gap: 5px;
+  }
+  .text-decoration .dot {
+    width: 4px;
+    height: 4px;
+  }
+}

@@ -1,0 +1,32 @@
+.faqSection {
+    align-items: center;
+}
+
+
+.faqList{
+    margin: 30px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    /* gap: 15px; */
+}
+
+.faqItem{
+    padding:10px  ;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.faqQuestion{
+    font-size: 25px;
+}
+
+.faqIcon{
+    font-size: 25px;
+    cursor: pointer;
+    color: var(--primary-color);
+}

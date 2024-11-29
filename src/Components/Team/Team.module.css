@@ -1,0 +1,155 @@
+.team{
+    align-items: center;
+    margin: 20px 0;
+    gap: 60px;
+}
+.teamContainer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    gap: 50px;
+}
+.teamMember{
+    flex: 1;
+    background-color: black;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    text-align: center;
+    
+
+}
+
+.memberImage{
+    width: 100%;
+    height: 100%;
+}
+.img{
+    height: inherit;
+}
+
+.memberDetails{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.memberDetails h3{
+    font-size: 25px;
+    line-height: 1.3;
+    font-family: var(--font-dubai-light);
+    
+}
+
+.memberDetails p{
+    font-size: 20px;
+    line-height: 1.3;
+    color: #888;
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.socialIcons img{
+    width: 30px;
+    height: 30px;
+}
+
+@media (max-width: 1200px) {
+    .teamContainer {
+   
+        gap: 40px;
+    }
+
+    .team {
+        gap: 50px;
+    }
+
+    .memberDetails h3 {
+        font-size: 22px; /* Reduce font size on medium screens */
+    }
+
+    .memberDetails p {
+        font-size: 18px; /* Reduce font size for paragraph */
+    }
+}
+
+@media (max-width: 1024px) {
+    .teamContainer {
+        gap: 30px;
+    }
+
+    .team {
+        gap: 30px;
+    }
+
+    .memberDetails h3 {
+        font-size: 20px; 
+    }
+
+    .memberDetails p {
+        font-size: 16px; 
+    }
+
+    .socialIcons img {
+        width: 25px;
+        height: 25px; 
+    }
+}
+
+@media (max-width: 800px) {
+    .teamContainer {
+        grid-template-columns: repeat(2 , 1fr); 
+        gap: 20px;
+    }
+
+    .team {
+        gap: 30px;
+    }
+
+    .memberDetails h3 {
+        font-size: 20px; 
+    }
+
+    .memberDetails p {
+        font-size: 16px; 
+    }
+}
+
+@media (max-width: 600px) {
+    .teamContainer {
+        grid-template-columns: repeat(1, 1fr); 
+        gap: 15px;
+    }
+    .team {
+        gap: 20px; 
+    }
+
+    
+}
+
+@media (max-width: 375px) {
+    .team {
+        gap: 15px; 
+    }
+
+    .memberDetails h3 {
+        font-size: 15px; 
+    }
+
+    .memberDetails p {
+        font-size: 12px; 
+    }
+
+    .socialIcons img {
+        width: 20px;
+        height: 20px;
+    }
+}

@@ -1,0 +1,56 @@
+.serviceDesc{
+    align-items: flex-start;
+    margin: 30px;
+}
+
+.serviceDesc .description{
+    font-size: 25px;
+    line-height: 1.4;
+    padding: 70px 90px;
+}
+
+
+.servicesContainer{
+    margin: 30px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+
+.serviceList{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.serviceItem{
+    width: 100%;
+    text-align: center;
+    font-family: var(--font-dubai-light);
+    font-size: 28px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #ccc;
+}
+.imageSection{
+    flex: 1;
+    width: 100%;
+}
+
+
+
+
+.advantages{
+    padding: 70px 90px;
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+    gap: 20px;
+    font-size: 22px;
+}

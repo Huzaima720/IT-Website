@@ -1,0 +1,71 @@
+.welcome{
+    margin: 40px 60px;
+    align-items: center;
+    gap: 50px;
+}
+
+.welcome p{
+    font-size: 25px;
+}
+
+@media (max-width: 1200px) {
+    .welcome {
+        margin: 30px 50px; 
+        gap: 40px;
+    }
+
+    .welcome p {
+        font-size: 22px; 
+        line-height: 1.5; 
+    }
+}
+
+@media (max-width: 1024px) {
+    .welcome {
+        margin: 25px 40px;
+        gap: 35px;
+    }
+
+    .welcome p {
+        font-size: 20px;
+        line-height: 1.5; 
+    }
+}
+
+@media (max-width: 800px) {
+    .welcome {
+        margin: 20px 30px;
+        gap: 30px;
+    }
+
+    .welcome p {
+        font-size: 18px; 
+        line-height: 1.4; 
+    }
+}
+
+@media (max-width: 600px) {
+    .welcome {
+        margin: 15px 20px;
+        gap: 22px;
+    }
+
+    .welcome p {
+        font-size: 16px; 
+        padding: 0 10px; 
+        line-height: 1.2; 
+    }
+}
+
+@media (max-width: 375px) {
+    .welcome {
+        margin: 10px 15px;
+        gap: 14px;
+    }
+
+    .welcome p {
+        font-size: 14px; 
+        padding: 0 10px; 
+       
+    }
+}
