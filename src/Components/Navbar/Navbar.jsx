@@ -18,15 +18,21 @@ export default function Navbar() {
         <h2>LOGO</h2>
       </Link>
 
-    
-      <div className={styles.menuIcon} onClick={toggleMenu}>
-        {menuOpen ? <FaTimes /> : <FaBars />}
-      </div>
+      {/* {menuOpen ? <FaTimes /> : <FaBars />} */}
+      {!menuOpen && (
+        <div className={styles.menuIcon} onClick={toggleMenu}>
+          <FaBars />
+        </div>
+      )}
 
       {/* Navigation Links */}
-   
 
       <div className={`${styles.navLinks} ${menuOpen ? styles.menuOpen : ""}`}>
+        {menuOpen && (
+          <div className={`${styles.menuIcon} ${styles.closeMenuIcon}`} onClick={toggleMenu}>
+            <FaTimes onClick={toggleMenu} />
+          </div>
+        )}
         <Link to="/services" className={styles.link}>
           PRODUCTS
         </Link>
@@ -53,8 +59,6 @@ export default function Navbar() {
           CONTACT US
         </a>
       </div>
-      
-      
     </nav>
   );
 }
